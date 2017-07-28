@@ -1,0 +1,101 @@
+html, body {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+/* ________NAVIGATION BEGIN_________ */
+.navbar {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+ .navbar-header {
+	background-color: black;
+	height: 100px;
+	padding: 20px;
+	border-color: black;
+}
+
+.navbar-collapse {
+	background-color: black;
+}
+
+.container-fluid .navbar-brand {
+	color: white;
+	font-size: 35px;
+}
+
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	font-size: 30px;
+}
+
+.nav {
+	padding: 20px;
+}
+
+/*__________NAVIGATION END___________ */
+
+.page-header {
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+@media screen and (max-width: 490px) {
+	h1 {
+	font-size: 40px;
+	}
+}
+
+#contactForm {
+	padding: 20px;
+}
+
+.btn {
+	margin-top: 20px;
+}
+
+.social {
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	margin: 20px;
+}
+
+.list-group {
+    padding-left: 0;
+    margin-bottom: 0; 
+    text-align: center;
+}
+
+.panel-body {
+	background-color: black;
+	color: white;
+	border: 0;
+}
+
+
+footer {
+	text-align: center;
+	background-color: black;
+	color: white;
+	height: 70px;
+	width: 100%;
+	margin: 0;
+	padding-top: 20px;
+	border-top-style: solid;
+	border-width: 3px;
+	border-color: white;
+}
