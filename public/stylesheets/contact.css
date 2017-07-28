@@ -86,6 +86,10 @@ h1 {
 	border: 0;
 }
 
+p {
+	line-height: 30px;
+	font-size: 20px;	
+}
 
 footer {
 	text-align: center;
