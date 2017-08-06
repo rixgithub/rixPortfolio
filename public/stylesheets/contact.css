@@ -91,6 +91,35 @@ p {
 	font-size: 20px;	
 }
 
+.row {	
+	text-align: center;
+	margin: 10px;
+	font-size: 35px;
+}
+
+@media screen and (max-width: 990px) {
+	.row {	
+	text-align: center;
+	margin: 10px;
+	font-size: 20px;
+}
+}
+
+@media screen and (max-width: 560px) {
+	.row {	
+	text-align: center;
+	margin: 10px;
+	font-size: 11px;
+}
+}
+
+@media screen and (max-width: 460px) {
+	.row {	
+	text-align: center;
+	font-size: 11px;
+}
+}
+
 footer {
 	text-align: center;
 	background-color: black;
