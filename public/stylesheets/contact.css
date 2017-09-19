@@ -1,3 +1,7 @@
+* {
+  border-radius: 0 !important;
+}
+
 html, body {
 	background-color: black;
 	margin: 0;
@@ -38,11 +42,22 @@ html, body {
 	font-size: 30px;
 }
 
+.navbar-toggle, .icon-bar {
+    border:1px solid white;
+}
+
 .nav {
 	padding: 20px;
 }
 
 /*__________NAVIGATION END___________ */
+
+
+.panel {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
 
 .page-header {
 	padding-bottom: 30px;
@@ -123,6 +138,7 @@ p {
 footer {
 	text-align: center;
 	background-color: black;
+	font-size: 10px;
 	color: white;
 	height: 70px;
 	width: 100%;
