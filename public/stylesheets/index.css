@@ -11,16 +11,13 @@ html, body {
 
 /* ________NAVIGATION BEGIN_________ */
 .navbar {
-	margin: 0;
+	margin: 20px;
 	padding: 0;
 	border: 0;
 }
 
  .navbar-header {
 	background-color: black;
-	height: 100px;
-	padding: 20px;
-	border-color: black;
 }
 
 .navbar-default .navbar-toggle {
@@ -33,6 +30,7 @@ html, body {
 
 .navbar-collapse {
 	background-color: black;
+	border-top: 0px;
 }
 
 .container-fluid .navbar-brand {
@@ -54,15 +52,15 @@ html, body {
     border: 1px solid white;
 }
 
-.navbar-toggle, .icon-bar {
-    border:1px solid white;
-}
-
 .nav {
 	padding: 20px;
 }
 
 /*__________NAVIGATION END___________ */
+
+.container-fluid {
+     padding:0;
+}
 
 .panel {
 	margin: 0;
