@@ -16,7 +16,7 @@ html, body {
 	border: 0;
 }
 
- .navbar-header {
+.navbar-header {
 	background-color: black;
 }
 
@@ -38,7 +38,11 @@ html, body {
 	font-size: 225%;
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-brand a:hover {
+	color: red;
+}
+
+.navbar-default .navbar-nav > li > a {
 	color: white;
 	font-size: 30px;
 }
@@ -47,8 +51,12 @@ html, body {
     border: 1px solid white;
 }
 
+.navbar-default .navbar-nav > li > a:hover {
+    color: #394d58;
+}
 
 /*__________NAVIGATION END___________ */
+
 
 .container-fluid {
      padding:0px;

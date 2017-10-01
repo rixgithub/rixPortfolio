@@ -46,6 +46,11 @@ html, body {
 .navbar-toggle, .icon-bar {
     border: 1px solid white;
 }
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #394d58;
+}
+
 /*__________NAVIGATION END___________ */
 
 .panel {

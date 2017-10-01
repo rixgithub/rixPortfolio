@@ -11,30 +11,31 @@ html, body {
 
 /* ________NAVIGATION BEGIN_________ */
 .navbar {
-	margin: 0;
+	margin: 20px;
 	padding: 0;
 	border: 0;
 }
 
  .navbar-header {
 	background-color: black;
-	height: 100px;
-	padding: 20px;
-	border-color: black;
+}
+
+.navbar-default .navbar-toggle {
+	background-color: black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    color: white;
 }
 
 .navbar-collapse {
 	background-color: black;
+	border-top: 0px;
 }
 
 .container-fluid .navbar-brand {
 	color: white;
-	font-size: 35px;
-}
-
-.container-fluid {
-	margin: 0;
-	padding: 0;
+	font-size: 225%;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -43,15 +44,21 @@ html, body {
 }
 
 .navbar-toggle, .icon-bar {
-    border:1px solid white;
+    border: 1px solid white;
 }
 
-.nav {
-	padding: 20px;
+.navbar-default .navbar-nav > li > a:hover {
+    color: #394d58;
 }
 
 /*__________NAVIGATION END___________ */
 
+
+
+.container-fluid {
+     padding:0px;
+     margin:0px;
+}
 
 .panel {
 	margin: 0;
@@ -59,32 +66,76 @@ html, body {
 	border: 0;
 }
 
-.page-header {
-	padding-bottom: 30px;
+.panel-heading {
 	text-align: center;
 }
 
-h1 {
-	font-size: 50px;
+.panel-title {
+	font-size: 700%;	
 }
 
-@media screen and (max-width: 490px) {
-	h1 {
-	font-size: 40px;
-	}
+.panel-body {
+	text-align: center;
+	font-size: 275%;
+	
 }
 
-#contactForm {
-	padding: 20px;
+#email {
+	background-color: #e5cfa0;
+	border-color: #e5cfa0;
 }
 
-.btn {
-	margin-top: 20px;
+#actualEmail {
+	background-color: #664b52;
+	border-color: #664b52;
+}
+
+#phone {
+	background-color: #67293e;
+	border-color: #67293e;
+}
+
+#phoneNumber {
+	background-color: #8c6f4d;
+	border-color: #8c6f4d;
+}
+
+.row {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#mainDiv {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.col-lg-12 {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+#socialMedia img {
+    opacity: 1.0;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+#socialMedia img:hover {
+    opacity: 0.75;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 .social {
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	padding: 10px;
 	margin: 20px;
 }
@@ -95,44 +146,14 @@ h1 {
     text-align: center;
 }
 
-.panel-body {
-	background-color: black;
-	color: white;
-	border: 0;
+#socialMedia {
+	background-color: #005c67;
+	border-color: #005c67;
 }
 
 p {
-	line-height: 30px;
-	font-size: 20px;	
-}
-
-.row {	
-	text-align: center;
-	margin: 10px;
-	font-size: 35px;
-}
-
-@media screen and (max-width: 990px) {
-	.row {	
-	text-align: center;
-	margin: 10px;
-	font-size: 20px;
-}
-}
-
-@media screen and (max-width: 560px) {
-	.row {	
-	text-align: center;
-	margin: 10px;
-	font-size: 11px;
-}
-}
-
-@media screen and (max-width: 460px) {
-	.row {	
-	text-align: center;
-	font-size: 11px;
-}
+	line-height: 150%;
+	font-size: 225%;	
 }
 
 footer {
@@ -144,7 +165,4 @@ footer {
 	width: 100%;
 	margin: 0;
 	padding-top: 20px;
-	border-top-style: solid;
-	border-width: 3px;
-	border-color: white;
 }

@@ -50,17 +50,63 @@
 	</nav>
 
 	<!-- MAIN BODY -->
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">		
-			<div class="col-xs-6">
+			<div class="col-lg-12">
 				<div class="panel panel-default">
-					<div class="panel-body">
-						<div class="page-header">
-							<h1>Email</h1>
+					<div class="panel-heading" id="email">
+						<h1 class="panel-title">Email</h1>
+  					</div>
+  					<div class="panel-body" id="actualEmail">
+    					<a href="mailto:rickygrams@me.com">rickygrams@me.com</a>
+  					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">		
+			<div class="col-lg-12">
+				<div class="panel panel-default">
+					<div class="panel-heading" id="phone">
+						<h1 class="panel-title">Phone</h1>
+  					</div>
+  					<div class="panel-body" id="phoneNumber">
+    					(510)289-1943
+  					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+			
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="panel panel-default">
+					<div class="panel-body" id="socialMedia">
+						<div class="list-group">	
+		        			<a href="https://www.linkedin.com/in/ricky-grams/" target="_blank"><img src="images/linked.png" class="social" alt="LinkedIn"></a>
+		        			<a href="https://github.com/rixgithub" target="_blank"><img src="images/github.jpg" class="social" alt="GitHub"></a>
+		        			<a href="http://stackoverflow.com/users/7388909/rixstack?tab=profile" target="_blank"><img src="images/stack.png" class="social" alt="Stack Overflow"></a>
 						</div>
-						<div class="row">
-							<a href="mailto:rickygrams@me.com">rickygrams@me.com</a>
-							{{!-- <form action="mailto:rickygrams@me.com" method="post" enctype="text/plain">
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+			<p>&copy; 2017 Ricky Lee Grams</p>
+		</div>
+	</footer>
+
+  </body>
+
+</html>
+
+	{{!-- <form action="mailto:" method="post" enctype="text/plain">
 								<div id="contactForm">
 									<div class="form-group">
 										<label for="inputName">Name</label>
@@ -81,31 +127,3 @@
 										<button type="submit" value="Send" class="btn btn-default"><strong>Submit</strong></button>
 								</div>
 							</form> --}}
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			<div class="col-xs-6">
-				<div class="panel panel-default">
-					<div class="panel-body">
-						<div class="list-group">
-							<a href="https://www.linkedin.com/in/ricky-grams/" target="_blank"><img src="images/linked.png" class="social" alt="LinkedIn"></a>
-		        			<a href="https://github.com/rixgithub" target="_blank"><img src="images/github.jpg" class="social" alt="GitHub"></a>
-		        			<a href="http://stackoverflow.com/users/7388909/rixstack?tab=profile" target="_blank"><img src="images/stack.png" class="social" alt="Stack Overflow"></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<footer class="footer">
-		<div class="container">
-			<p>&copy; 2017 Ricky Lee Grams</p>
-		</div>
-	</footer>
-
-  </body>
-
-</html>
