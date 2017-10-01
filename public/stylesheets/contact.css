@@ -77,7 +77,11 @@ html, body {
 .panel-body {
 	text-align: center;
 	font-size: 250%;
-	
+	color: white;
+}
+
+.panel-body a {
+	color: white;
 }
 
 #email {
