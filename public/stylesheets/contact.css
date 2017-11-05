@@ -71,7 +71,8 @@ html, body {
 }
 
 .panel-title {
-	font-size: 800%;	
+	font-size: 800%;
+	color: white;	
 }
 
 .panel-body {
